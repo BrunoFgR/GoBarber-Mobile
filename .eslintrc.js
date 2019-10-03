@@ -10,6 +10,7 @@ module.exports = {
     SharedArrayBuffer: 'readonly',
     __DEV__: true,
   },
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -32,6 +33,7 @@ module.exports = {
     'no-console': ['error', {allow: ['tron']}],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+    'react/jsx-props-no-spreading': 'off',
   },
   settings: {
     'import/resolver': {
