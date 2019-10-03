@@ -3,11 +3,11 @@ import { StatusBar } from 'react-native';
 
 import Routes from './routes';
 
-export default function App() {
+export default function src() {
   return (
     <>
       <StatusBar backgroundColor="#7159c1" barStyle="light-content" />
-      <Routes />;
+      <Routes />
     </>
   );
 }
