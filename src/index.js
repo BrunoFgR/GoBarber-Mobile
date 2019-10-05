@@ -7,14 +7,14 @@ import './config/ReactotronConfig';
 
 import { store, persistor } from '~/store';
 
-import Routes from './routes';
+import App from './App';
 
 export default function src() {
   return (
     <Provider store={store}>
       <PersistGate persistor={persistor}>
         <StatusBar backgroundColor="#7159c1" barStyle="light-content" />
-        <Routes />
+        <App />
       </PersistGate>
     </Provider>
   );
